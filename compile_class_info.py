@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import csv
 from io import StringIO
 import glob
@@ -68,3 +69,22 @@ def check_camel_case():
 if __name__ == "__main__":
     main()
 
+=======
+def main():
+    filenames = collect_csv_files()
+    student_data = cat_data()
+    write_data()
+
+def collect_csv_files():
+    pass
+
+def cat_data():
+    pass
+
+def write_():
+    # CSV or JSON
+    pass
+
+if __name__ == "__main__":
+    main()
+>>>>>>> dd610efb7fcafca5db60cd55f09fe3cda4a5ea87
