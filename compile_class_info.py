@@ -1,5 +1,6 @@
 import csv
 from io import StringIO
+import glob
 
 filename_list = []
 team_name = ""
@@ -29,7 +30,6 @@ def main():
     print(camel_count, "entries are in camel case!")
 
 def collect_all_csv_filenames():
-    import glob
     global filename_list
     filename_list = glob.glob('*.csv')
 
